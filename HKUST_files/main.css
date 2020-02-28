@@ -1,0 +1,142 @@
+
+@media (min-width: 48em) {
+  html {
+    font-size: 16px;
+  }
+}
+
+/*For the region cannot visit google*/
+@font-face {
+    font-family: 'Homemade Apple';
+    src: url('../fonts/apple/HomemadeApple.ttf') format('truetype'),
+    url('../fonts/apple/HomemadeApple.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.home {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 3em;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/opensans/OpenSans-Regular-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/opensans/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/opensans/OpenSans-Regular-webfont.woff') format('woff'), /* Super Modern Browsers */
+    url('../fonts/opensans/OpenSans-Regular-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/opensans/OpenSans-Regular-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+.opensans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.light{
+    font-weight: 300 !important;
+}
+.regular{
+    font-weight: 400;
+}
+.semibold{
+    font-weight: 600;
+}
+.bold{
+    font-weight: 700;
+}
+.extrabold{
+    font-weight: 800;
+}
+
+.blank {
+    padding: 5px;
+}
+.topHead {
+    padding: 20px;
+}
+
+.btn-github {
+    background: url('../img/social/GitHub.png');
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-size: 32px 32px;
+    padding-left: 20px;
+    border:0px solid transparent;
+}
+.btn-github:hover {
+    background: url('../img/social/GitHub_g.png');
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-size: 32px 32px;
+    padding-left: 20px;
+    border:0px solid transparent;
+}
+
+.btn-behance {
+    background: url('../img/social/Behance.png');
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-size: 32px 32px;
+    padding-left: 20px;
+    border:0px solid transparent;
+}
+.btn-behance:hover {
+    background: url('../img/social/Behance_g.png');
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-size: 32px 32px;
+    padding-left: 20px;
+    border:0px solid transparent;
+}
+
+.btn-linkedin {
+    background: url('../img/social/LinkedIn.png');
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-size: 32px 32px;
+    padding-left: 20px;
+    border:0px solid transparent;
+}
+.btn-linkedin:hover {
+    background: url('../img/social/LinkedIn_g.png');
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-size: 32px 32px;
+    padding-left: 20px;
+    border:0px solid transparent;
+}
+
+.btn-facebook {
+    background: url('../img/social/Facebook.png');
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-size: 32px 32px;
+    padding-left: 20px;
+    border:0px solid transparent;
+}
+.btn-facebook:hover {
+    background: url('../img/social/Facebook_g.png');
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-size: 32px 32px;
+    padding-left: 20px;
+    border:0px solid transparent;
+}
+
+h4 {
+    text-shadow: 1px 1px 1px #ddd;
+}
+
+.hkustBlue {
+    color: #003366;
+}
+
+.hkustGold {
+    color: #996600;
+}
+
+/*.cover {*/
+    /*-moz-box-shadow:    inset 0 0 10px #000000;*/
+    /*-webkit-box-shadow: inset 0 0 10px #000000;*/
+    /*box-shadow:         inset 0 0 10px #000000;*/
+/*}*/
