@@ -1,0 +1,94 @@
+thead { font: 100%; }
+
+th,td { vertical-align: top;
+        padding-bottom: 5;
+        padding-top: 5;
+        padding-left: 20;
+        padding-right: 20; }
+
+/*a:link {
+    color: Darkblue;
+}*/
+
+a:link, a:visited { text-decoration:none; border-bottom:1px dotted gray; color: #000; }
+a:hover { text-decoration:none; border-bottom:1px dotted gray; color: gray; }
+/*a:hover { text-decoration:none; position:relative; top:-0.5em;
+    font-weight:bold; font-size:smaller; border-bottom:none; }
+a:active { text-decoration:none; }*/
+
+html
+{
+    font: 14px Times, serif;
+    padding: 20px;
+}
+
+div.header
+{
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 5;
+    padding: 0;
+}
+
+div.content
+{
+    margin: 1;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    padding-left: 15em;
+}
+
+div.content h1 {
+    font: bold 14pt 'Times New Roman', Times, serif;
+}
+
+div.content h2,h3,h4,h5 {
+	font: bold 'Times New Roman', Times, serif;
+}
+
+
+div.navigation
+{
+    font-family:  'Times New Roman', Times, serif;
+    font-size: small;
+    background-color:white;
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    width: 15em;
+    padding: 1em
+}
+
+div.navigation h1,h2,h3 {
+	font:  bold large 'Times New Roman', Times, serif;
+}
+
+div.navigation h4 {
+	font:  12pt 'Times New Roman', Times, serif;
+}
+
+
+div.navigation h5 {
+	font:  12pt 'Times New Roman', Times, serif;
+}
+
+
+div.navigation td
+{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 20px;
+	font-variant: normal;
+}
+
+ul,ol,li {
+	float: none;
+	margin-left: 2px;
+	padding: 5px;
+}
+
+ul,ol {
+	margin-left: 25px;
+}
+
